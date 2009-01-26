@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SMSAlertAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SMSAlertAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		280E754D0DD40C5E005A515E /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754A0DD40C5E005A515E /* AboutView.xib */; };
+		280E754E0DD40C5E005A515E /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754B0DD40C5E005A515E /* MainView.xib */; };
+		280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 280E754C0DD40C5E005A515E /* MainWindow.xib */; };
+		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
+		289233A60DB2D0840083E9F9 /* SAAboutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A30DB2D0840083E9F9 /* SAAboutView.m */; };
+		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
+		289233AF0DB2D0DB0083E9F9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AB0DB2D0DB0083E9F9 /* RootViewController.m */; };
+		289233B00DB2D0DB0083E9F9 /* SAABoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* SAABoutViewController.m */; };
+		B9059F300EFDED39005BE42E /* SAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9059F2F0EFDED39005BE42E /* SAWebViewController.m */; };
+		B9059F330EFDED47005BE42E /* SAConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9059F320EFDED47005BE42E /* SAConfigViewController.m */; };
+		B9059F5E0EFDF751005BE42E /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9059F5D0EFDF751005BE42E /* WebViewController.xib */; };
+		B9059F600EFDF75E005BE42E /* ConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9059F5F0EFDF75E005BE42E /* ConfigViewController.xib */; };
+		B9059F6E0EFE07FB005BE42E /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = B9059F6D0EFE07FB005BE42E /* back.png */; };
+		B9059F700EFE0801005BE42E /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = B9059F6F0EFE0801005BE42E /* forward.png */; };
+		B9059FA60EFE1870005BE42E /* PFURL.m in Sources */ = {isa = PBXBuildFile; fileRef = B9059FA50EFE1870005BE42E /* PFURL.m */; };
+		B9059FCC0EFE2AB2005BE42E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9059FCB0EFE2AB2005BE42E /* Localizable.strings */; };
+		B9059FD10EFE2B6F005BE42E /* PFSound.m in Sources */ = {isa = PBXBuildFile; fileRef = B9059FD00EFE2B6F005BE42E /* PFSound.m */; };
+		B9059FD40EFE2BF7005BE42E /* SASounds.m in Sources */ = {isa = PBXBuildFile; fileRef = B9059FD30EFE2BF7005BE42E /* SASounds.m */; };
+		B905A02A0EFE3EA9005BE42E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B905A0290EFE3EA9005BE42E /* Icon.png */; };
+		B905A0D30EFE75A3005BE42E /* CUSTOM_RINGTONE.txt in Resources */ = {isa = PBXBuildFile; fileRef = B905A0D20EFE75A3005BE42E /* CUSTOM_RINGTONE.txt */; };
+		B905A0DE0EFE7E01005BE42E /* alert-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = B905A0DC0EFE7E01005BE42E /* alert-3.caf */; };
+		B905A0DF0EFE7E01005BE42E /* alert-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = B905A0DD0EFE7E01005BE42E /* alert-2.caf */; };
+		B905A0E40EFE7E0A005BE42E /* mallert-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = B905A0E00EFE7E0A005BE42E /* mallert-2.caf */; };
+		B905A0E50EFE7E0A005BE42E /* mallert-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B905A0E10EFE7E0A005BE42E /* mallert-1.caf */; };
+		B905A0E60EFE7E0A005BE42E /* mallert-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = B905A0E20EFE7E0A005BE42E /* mallert-4.caf */; };
+		B905A0E70EFE7E0A005BE42E /* mallert-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = B905A0E30EFE7E0A005BE42E /* mallert-3.caf */; };
+		B905A0EA0EFE7E25005BE42E /* pulse.caf in Resources */ = {isa = PBXBuildFile; fileRef = B905A0E90EFE7E25005BE42E /* pulse.caf */; };
+		B913FB180EFCC2F8008D113C /* SASound.m in Sources */ = {isa = PBXBuildFile; fileRef = B913FB170EFCC2F8008D113C /* SASound.m */; };
+		B913FB4C0EFCD9A3008D113C /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B913FB4B0EFCD9A3008D113C /* Settings.bundle */; };
+		B994031B0F2D8FB600C4E5E5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B99403190F2D8FB600C4E5E5 /* LICENSE */; };
+		B994031C0F2D8FB600C4E5E5 /* README in Resources */ = {isa = PBXBuildFile; fileRef = B994031A0F2D8FB600C4E5E5 /* README */; };
+		B99FFF5A0EFE880400B0D9DE /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = B99FFF590EFE880400B0D9DE /* Entitlements.plist */; };
+		B9BB59BB0EFC7C020094F55C /* SAVibration.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BB59BA0EFC7C020094F55C /* SAVibration.m */; };
+		B9BB59BD0EFC7C1A0094F55C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BB59BC0EFC7C1A0094F55C /* AudioToolbox.framework */; };
+		B9BB59CD0EFC82250094F55C /* SASMSObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BB59CC0EFC82250094F55C /* SASMSObserver.m */; };
+		B9BB59DA0EFC85810094F55C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BB59D90EFC85810094F55C /* CoreTelephony.framework */; };
+		B9BB5A790EFCBAC90094F55C /* phone-ring-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B9BB5A750EFCBAC90094F55C /* phone-ring-1.caf */; };
+		B9BB5A7A0EFCBAC90094F55C /* alert-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B9BB5A760EFCBAC90094F55C /* alert-1.caf */; };
+		B9BB5A7B0EFCBAC90094F55C /* phone-ring-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = B9BB5A770EFCBAC90094F55C /* phone-ring-2.caf */; };
+		B9BB5A7C0EFCBAC90094F55C /* notification-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = B9BB5A780EFCBAC90094F55C /* notification-1.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SMSAlertAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSAlertAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SMSAlertAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSAlertAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SMSAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		280E754A0DD40C5E005A515E /* AboutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		280E754B0DD40C5E005A515E /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		280E754C0DD40C5E005A515E /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		288765580DF743DE002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		289233A20DB2D0840083E9F9 /* SAAboutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAAboutView.h; sourceTree = "<group>"; };
+		289233A30DB2D0840083E9F9 /* SAAboutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAboutView.m; sourceTree = "<group>"; };
+		289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		289233AA0DB2D0DB0083E9F9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		289233AB0DB2D0DB0083E9F9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		289233AC0DB2D0DB0083E9F9 /* SAABoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAABoutViewController.h; sourceTree = "<group>"; };
+		289233AD0DB2D0DB0083E9F9 /* SAABoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAABoutViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SMSAlert_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSAlert_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9059F2E0EFDED39005BE42E /* SAWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAWebViewController.h; sourceTree = "<group>"; };
+		B9059F2F0EFDED39005BE42E /* SAWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAWebViewController.m; sourceTree = "<group>"; };
+		B9059F310EFDED47005BE42E /* SAConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAConfigViewController.h; sourceTree = "<group>"; };
+		B9059F320EFDED47005BE42E /* SAConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAConfigViewController.m; sourceTree = "<group>"; };
+		B9059F5D0EFDF751005BE42E /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		B9059F5F0EFDF75E005BE42E /* ConfigViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfigViewController.xib; sourceTree = "<group>"; };
+		B9059F6D0EFE07FB005BE42E /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		B9059F6F0EFE0801005BE42E /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		B9059FA40EFE1870005BE42E /* PFURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFURL.h; sourceTree = "<group>"; };
+		B9059FA50EFE1870005BE42E /* PFURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFURL.m; sourceTree = "<group>"; };
+		B9059FC90EFE2AAC005BE42E /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B9059FCD0EFE2AB8005BE42E /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B9059FCF0EFE2B6F005BE42E /* PFSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFSound.h; sourceTree = "<group>"; };
+		B9059FD00EFE2B6F005BE42E /* PFSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFSound.m; sourceTree = "<group>"; };
+		B9059FD20EFE2BF7005BE42E /* SASounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASounds.h; sourceTree = "<group>"; };
+		B9059FD30EFE2BF7005BE42E /* SASounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASounds.m; sourceTree = "<group>"; };
+		B905A0290EFE3EA9005BE42E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = resources/Icon.png; sourceTree = "<group>"; };
+		B905A0D20EFE75A3005BE42E /* CUSTOM_RINGTONE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CUSTOM_RINGTONE.txt; sourceTree = "<group>"; };
+		B905A0DC0EFE7E01005BE42E /* alert-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alert-3.caf"; sourceTree = "<group>"; };
+		B905A0DD0EFE7E01005BE42E /* alert-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alert-2.caf"; sourceTree = "<group>"; };
+		B905A0E00EFE7E0A005BE42E /* mallert-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mallert-2.caf"; sourceTree = "<group>"; };
+		B905A0E10EFE7E0A005BE42E /* mallert-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mallert-1.caf"; sourceTree = "<group>"; };
+		B905A0E20EFE7E0A005BE42E /* mallert-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mallert-4.caf"; sourceTree = "<group>"; };
+		B905A0E30EFE7E0A005BE42E /* mallert-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mallert-3.caf"; sourceTree = "<group>"; };
+		B905A0E90EFE7E25005BE42E /* pulse.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pulse.caf; sourceTree = "<group>"; };
+		B913FB160EFCC2F8008D113C /* SASound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASound.h; sourceTree = "<group>"; };
+		B913FB170EFCC2F8008D113C /* SASound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASound.m; sourceTree = "<group>"; };
+		B913FB4B0EFCD9A3008D113C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		B99403190F2D8FB600C4E5E5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B994031A0F2D8FB600C4E5E5 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		B99FFF590EFE880400B0D9DE /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		B9BB59B90EFC7C020094F55C /* SAVibration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAVibration.h; sourceTree = "<group>"; };
+		B9BB59BA0EFC7C020094F55C /* SAVibration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAVibration.m; sourceTree = "<group>"; };
+		B9BB59BC0EFC7C1A0094F55C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B9BB59CB0EFC82250094F55C /* SASMSObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASMSObserver.h; sourceTree = "<group>"; };
+		B9BB59CC0EFC82250094F55C /* SASMSObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASMSObserver.m; sourceTree = "<group>"; };
+		B9BB59D90EFC85810094F55C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/PrivateFrameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		B9BB5A750EFCBAC90094F55C /* phone-ring-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "phone-ring-1.caf"; sourceTree = "<group>"; };
+		B9BB5A760EFCBAC90094F55C /* alert-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alert-1.caf"; sourceTree = "<group>"; };
+		B9BB5A770EFCBAC90094F55C /* phone-ring-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "phone-ring-2.caf"; sourceTree = "<group>"; };
+		B9BB5A780EFCBAC90094F55C /* notification-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "notification-1.caf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */,
+				B9BB59BD0EFC7C1A0094F55C /* AudioToolbox.framework in Frameworks */,
+				B9BB59DA0EFC85810094F55C /* CoreTelephony.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* SMSAlertAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SMSAlertAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SMSAlert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB59790EFC6AE30094F55C /* libs */,
+				B9BB597C0EFC6AE30094F55C /* controllers */,
+				B9BB597A0EFC6AE30094F55C /* models */,
+				B9BB597B0EFC6AE30094F55C /* views */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				B9BB5A3B0EFC8F1D0094F55C /* images */,
+				B9BB5A740EFCBAC00094F55C /* sounds */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SMSAlert_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B99403190F2D8FB600C4E5E5 /* LICENSE */,
+				B994031A0F2D8FB600C4E5E5 /* README */,
+				280E754A0DD40C5E005A515E /* AboutView.xib */,
+				280E754B0DD40C5E005A515E /* MainView.xib */,
+				280E754C0DD40C5E005A515E /* MainWindow.xib */,
+				B9059F5D0EFDF751005BE42E /* WebViewController.xib */,
+				B9059F5F0EFDF75E005BE42E /* ConfigViewController.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				B905A0290EFE3EA9005BE42E /* Icon.png */,
+				B913FB4B0EFCD9A3008D113C /* Settings.bundle */,
+				B9059FCB0EFE2AB2005BE42E /* Localizable.strings */,
+				B99FFF590EFE880400B0D9DE /* Entitlements.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB59D90EFC85810094F55C /* CoreTelephony.framework */,
+				B9BB59BC0EFC7C1A0094F55C /* AudioToolbox.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765580DF743DE002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9BB59790EFC6AE30094F55C /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				B9BB59B90EFC7C020094F55C /* SAVibration.h */,
+				B9BB59BA0EFC7C020094F55C /* SAVibration.m */,
+				B913FB160EFCC2F8008D113C /* SASound.h */,
+				B913FB170EFCC2F8008D113C /* SASound.m */,
+				B9BB59CB0EFC82250094F55C /* SASMSObserver.h */,
+				B9BB59CC0EFC82250094F55C /* SASMSObserver.m */,
+			);
+			name = libs;
+			path = Classes/libs;
+			sourceTree = "<group>";
+		};
+		B9BB597A0EFC6AE30094F55C /* models */ = {
+			isa = PBXGroup;
+			children = (
+				B9059FA40EFE1870005BE42E /* PFURL.h */,
+				B9059FA50EFE1870005BE42E /* PFURL.m */,
+				B9059FCF0EFE2B6F005BE42E /* PFSound.h */,
+				B9059FD00EFE2B6F005BE42E /* PFSound.m */,
+				B9059FD20EFE2BF7005BE42E /* SASounds.h */,
+				B9059FD30EFE2BF7005BE42E /* SASounds.m */,
+			);
+			name = models;
+			path = Classes/models;
+			sourceTree = "<group>";
+		};
+		B9BB597B0EFC6AE30094F55C /* views */ = {
+			isa = PBXGroup;
+			children = (
+				289233A20DB2D0840083E9F9 /* SAAboutView.h */,
+				289233A30DB2D0840083E9F9 /* SAAboutView.m */,
+			);
+			name = views;
+			path = Classes/views;
+			sourceTree = "<group>";
+		};
+		B9BB597C0EFC6AE30094F55C /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				289233AA0DB2D0DB0083E9F9 /* RootViewController.h */,
+				289233AB0DB2D0DB0083E9F9 /* RootViewController.m */,
+				289233A80DB2D0DB0083E9F9 /* MainViewController.h */,
+				289233A90DB2D0DB0083E9F9 /* MainViewController.m */,
+				289233AC0DB2D0DB0083E9F9 /* SAABoutViewController.h */,
+				289233AD0DB2D0DB0083E9F9 /* SAABoutViewController.m */,
+				B9059F2E0EFDED39005BE42E /* SAWebViewController.h */,
+				B9059F2F0EFDED39005BE42E /* SAWebViewController.m */,
+				B9059F310EFDED47005BE42E /* SAConfigViewController.h */,
+				B9059F320EFDED47005BE42E /* SAConfigViewController.m */,
+			);
+			name = controllers;
+			path = Classes/controllers;
+			sourceTree = "<group>";
+		};
+		B9BB5A3B0EFC8F1D0094F55C /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B9059F6D0EFE07FB005BE42E /* back.png */,
+				B9059F6F0EFE0801005BE42E /* forward.png */,
+			);
+			name = images;
+			path = resources;
+			sourceTree = "<group>";
+		};
+		B9BB5A740EFCBAC00094F55C /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B905A0D20EFE75A3005BE42E /* CUSTOM_RINGTONE.txt */,
+				B9BB5A760EFCBAC90094F55C /* alert-1.caf */,
+				B905A0DD0EFE7E01005BE42E /* alert-2.caf */,
+				B905A0DC0EFE7E01005BE42E /* alert-3.caf */,
+				B905A0E10EFE7E0A005BE42E /* mallert-1.caf */,
+				B905A0E00EFE7E0A005BE42E /* mallert-2.caf */,
+				B905A0E30EFE7E0A005BE42E /* mallert-3.caf */,
+				B905A0E20EFE7E0A005BE42E /* mallert-4.caf */,
+				B9BB5A780EFCBAC90094F55C /* notification-1.caf */,
+				B9BB5A750EFCBAC90094F55C /* phone-ring-1.caf */,
+				B9BB5A770EFCBAC90094F55C /* phone-ring-2.caf */,
+				B905A0E90EFE7E25005BE42E /* pulse.caf */,
+			);
+			name = sounds;
+			path = resources/sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SMSAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SMSAlert" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMSAlert;
+			productName = SMSAlert;
+			productReference = 1D6058910D05DD3D006BFB54 /* SMSAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SMSAlert" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SMSAlert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				280E754D0DD40C5E005A515E /* AboutView.xib in Resources */,
+				280E754E0DD40C5E005A515E /* MainView.xib in Resources */,
+				280E754F0DD40C5E005A515E /* MainWindow.xib in Resources */,
+				B9BB5A790EFCBAC90094F55C /* phone-ring-1.caf in Resources */,
+				B9BB5A7A0EFCBAC90094F55C /* alert-1.caf in Resources */,
+				B9BB5A7B0EFCBAC90094F55C /* phone-ring-2.caf in Resources */,
+				B9BB5A7C0EFCBAC90094F55C /* notification-1.caf in Resources */,
+				B913FB4C0EFCD9A3008D113C /* Settings.bundle in Resources */,
+				B9059F5E0EFDF751005BE42E /* WebViewController.xib in Resources */,
+				B9059F600EFDF75E005BE42E /* ConfigViewController.xib in Resources */,
+				B9059F6E0EFE07FB005BE42E /* back.png in Resources */,
+				B9059F700EFE0801005BE42E /* forward.png in Resources */,
+				B9059FCC0EFE2AB2005BE42E /* Localizable.strings in Resources */,
+				B905A02A0EFE3EA9005BE42E /* Icon.png in Resources */,
+				B905A0D30EFE75A3005BE42E /* CUSTOM_RINGTONE.txt in Resources */,
+				B905A0DE0EFE7E01005BE42E /* alert-3.caf in Resources */,
+				B905A0DF0EFE7E01005BE42E /* alert-2.caf in Resources */,
+				B905A0E40EFE7E0A005BE42E /* mallert-2.caf in Resources */,
+				B905A0E50EFE7E0A005BE42E /* mallert-1.caf in Resources */,
+				B905A0E60EFE7E0A005BE42E /* mallert-4.caf in Resources */,
+				B905A0E70EFE7E0A005BE42E /* mallert-3.caf in Resources */,
+				B905A0EA0EFE7E25005BE42E /* pulse.caf in Resources */,
+				B99FFF5A0EFE880400B0D9DE /* Entitlements.plist in Resources */,
+				B994031B0F2D8FB600C4E5E5 /* LICENSE in Resources */,
+				B994031C0F2D8FB600C4E5E5 /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SMSAlertAppDelegate.m in Sources */,
+				289233A60DB2D0840083E9F9 /* SAAboutView.m in Sources */,
+				289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */,
+				289233AF0DB2D0DB0083E9F9 /* RootViewController.m in Sources */,
+				289233B00DB2D0DB0083E9F9 /* SAABoutViewController.m in Sources */,
+				B9BB59BB0EFC7C020094F55C /* SAVibration.m in Sources */,
+				B9BB59CD0EFC82250094F55C /* SASMSObserver.m in Sources */,
+				B913FB180EFCC2F8008D113C /* SASound.m in Sources */,
+				B9059F300EFDED39005BE42E /* SAWebViewController.m in Sources */,
+				B9059F330EFDED47005BE42E /* SAConfigViewController.m in Sources */,
+				B9059FA60EFE1870005BE42E /* PFURL.m in Sources */,
+				B9059FD10EFE2B6F005BE42E /* PFSound.m in Sources */,
+				B9059FD40EFE2BF7005BE42E /* SASounds.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9059FCB0EFE2AB2005BE42E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9059FC90EFE2AAC005BE42E /* English */,
+				B9059FCD0EFE2AB8005BE42E /* Japanese */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SMSAlert_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = SMSAlert;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SMSAlert_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = SMSAlert;
+			};
+			name = Release;
+		};
+		B905A07F0EFE45AF005BE42E /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kyosuke Takayama";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9076E565-8158-456E-90B8-ADAA6001D2FC";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Distribution;
+		};
+		B905A0800EFE45AF005BE42E /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SMSAlert_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = SMSAlert;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kyosuke Takayama";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = _DEBUG_;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DFE256B1-FB42-41DC-95B9-5C7C7BA92786";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kyosuke Takayama";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CB99084D-F474-49CC-9872-22FD989BC53F";
+				SDKROOT = iphoneos2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SMSAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				B905A0800EFE45AF005BE42E /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SMSAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				B905A07F0EFE45AF005BE42E /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

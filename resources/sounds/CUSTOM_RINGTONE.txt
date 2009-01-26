@@ -1,0 +1,11 @@
+take the following steps if you use custom ringtone.
+
+1. install DiskAid on your PC or Mac.
+   http://www.digidna.net/diskaid/
+
+2. Create "SMSAlert" folder into Photos folder.
+   ex. /var/mobile/Media/Photos/SMSAlert/
+
+3. Copy audio file into "SMSAlert" folder.
+   you can use `.caf` format only.
+

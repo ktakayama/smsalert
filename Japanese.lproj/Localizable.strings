@@ -1,0 +1,9 @@
+
+/* Japanese */
+
+// SAConfigViewController
+"Settings"  = "設定";
+"Ringtone"  = "着信音";
+"None"      = "なし";
+"Other setting is in \"Settings\" application." = "この他の設定は\"設定\"アプリ内にあります";
+
